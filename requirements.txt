@@ -6,3 +6,4 @@ sentencepiece
 jinja2
 python-multipart
 safetensors
+accelerate
