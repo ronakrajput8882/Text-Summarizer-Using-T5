@@ -1,9 +1,9 @@
 fastapi
 uvicorn
+jinja2
 transformers
 torch
 sentencepiece
-jinja2
 python-multipart
 safetensors
 accelerate
