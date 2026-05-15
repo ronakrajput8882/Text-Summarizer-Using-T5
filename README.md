@@ -7,7 +7,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docker.com)
-[![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
+[![Live Demo](https://img.shields.io/badge/🤗%20Live%20Demo-HF%20Spaces-FFD21E?style=for-the-badge)](https://ronakrajput8882-text-summarizer.hf.space/)
 [![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge)](LICENSE)
 
 </div>
@@ -21,6 +21,12 @@ A production-ready **abstractive text summarization** web application powered by
 The model is hosted on Hugging Face Hub (`ronakrajput8882/text-summarizer-t5`), served via a **FastAPI** REST backend, and deployed using **Docker on Render**.
 
 > ✅ Supports CPU, CUDA (GPU), and Apple MPS — auto-detected at runtime.
+
+<div align="center">
+
+### 🌐 [Try the Live Demo → ronakrajput8882-text-summarizer.hf.space](https://ronakrajput8882-text-summarizer.hf.space/)
+
+</div>
 
 ---
 
@@ -167,7 +173,7 @@ Visit `http://localhost:8000` for the web UI.
 
 - Fine-tuning T5 via Hugging Face `Trainer` API and hosting the checkpoint on HF Hub for direct `from_pretrained()` loading
 - Building production FastAPI apps with Pydantic schema validation and Jinja2 HTML rendering
-- Dockerizing ML inference services and deploying to Render with `render.yaml` for automated deployments
+- Dockerizing ML inference services and deploying to **Hugging Face Spaces** for free live demo hosting
 - Handling multi-device inference (MPS/CUDA/CPU) with graceful fallback logic
 - Text preprocessing pipelines for transformer input normalization
 
@@ -184,7 +190,7 @@ Visit `http://localhost:8000` for the web UI.
 | `pydantic` | Request schema validation |
 | `Jinja2` | HTML template rendering |
 | `Docker` | Containerized deployment |
-| `Render` | Cloud deployment platform |
+| `Hugging Face Spaces` | Live demo deployment |
 | `Hugging Face Hub` | Model hosting |
 
 ---
